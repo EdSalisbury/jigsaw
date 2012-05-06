@@ -4,15 +4,15 @@ JIGSAW
 A jigsaw puzzle creator/solver/game
 
 by:
-Ed Salisbury <ed@edsalisbury.net>
-Matt Goralczyk <matthew.goralczyk@ucdenver.edu>
-James Brayton <james.brayton@gmail.com>
+* Ed Salisbury <ed@edsalisbury.net>
+* Matt Goralczyk <matthew.goralczyk@ucdenver.edu>
+* James Brayton <james.brayton@gmail.com>
 
 Created: April, 2012
 
 How to compile:
 ---------------
-$ make
+    $ make
 
 This will create three programs:
 * make_pieces
@@ -24,7 +24,7 @@ How to run:
 
 ### Make puzzle:
 
-$ make_pieces <image_file> <number of pieces> <variance>
+    $ make_pieces <image_file> <number of pieces> <variance>
 
 ### This will do the following:
 * Load in the image
@@ -38,7 +38,7 @@ $ make_pieces <image_file> <number of pieces> <variance>
 
 ### Match pieces:
 
-$ match_pieces <image_dir> <piece1> <piece2>
+    $ match_pieces <image_dir> <piece1> <piece2>
 
 ### This will do the following:
 * Load in the two rotation files and reverse the second one
@@ -47,7 +47,7 @@ $ match_pieces <image_dir> <piece1> <piece2>
 
 ### Join pieces:
 
-$ join_pieces <image_dir> <piece1> <piece2> <offset1> <offset2> <length>
+    $ join_pieces <image_dir> <piece1> <piece2> <offset1> <offset2> <length>
 
 ### This will do the following:
 * Load in both XY files
