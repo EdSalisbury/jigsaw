@@ -1,0 +1,4 @@
+*.o
+make_pieces
+match_pieces
+join_pieces
